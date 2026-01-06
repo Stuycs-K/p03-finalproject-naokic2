@@ -20,7 +20,7 @@ We will be using:
 - shared memory (communication across processes)
 - sockets (networking across computers)
 
-Until turo responds to his messages, I am in charge of the project.
+Until Turo responds to his messages, I am in charge of the project.
 
 # Intended pacing:
 
