@@ -2,27 +2,26 @@
 
 ## Group Members:
 
-names here.(CHANGE THIS!!!!!)
-       
+Naoki Conning and Turbold Gerald
+
 # Intentions:
 
-A statement of the problem you are solving and/or a high level description of the project. (CHANGE THIS!!!!!)
-    
+We are running a distributed algorithm to solve a Linear Regression. The project will create a random sample (prob normally distributed) of data points around a pre-specified equation, and will then run a linear regression to reconstruct the equation.
+
 # Intended usage:
 
 A description as to how the project will be used (describe the user interface). (CHANGE THIS!!!!!)
-  
+
 # Technical Details:
 
-(CHANGE THIS!!!!!)
+We will be using:
+- Allocating memory (data points)
+- processes (forking)
+- shared memory (communication across processes)
+- sockets (networking across computers)
 
-A description of your technical design. This should include: 
-   
-How you will be using the topics covered in class in the project.
-     
-How you are breaking down the project and who is responsible for which parts.
-  
-    
+Until turo responds to his messages, I am in charge of the project.
+
 # Intended pacing:
 
-A timeline with expected completion dates of parts of the project. (CHANGE THIS!!!!!)
+Hope to finish the Regression method across the processes of a computer by Monday, will extend to networking by Friday.
