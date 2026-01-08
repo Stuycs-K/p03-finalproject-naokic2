@@ -4,6 +4,7 @@
 //WRITE ERROR FUNCTIOn---
 #include <fcntl.h>
 #include <unistd.h>
+#include "Data_Generate.h"
 double randomDouble(double min, double max){
     return (double) rand() * (min - max) + min;
 }
@@ -13,6 +14,12 @@ double function(double* Weights, double* Bias,int dims){
         
     }
 }
+
+double NormalDSampler(int std, int mean){ //generates a random number based on a mean and std from the normal distribution
+
+    double
+}
+
 
 int main(intargc, char *argv[]){
     if(argc == 3){
@@ -43,9 +50,15 @@ int main(intargc, char *argv[]){
     for(int i=0;i<dims;i++){ //initialize memory for each datapoint n dimensins
         dataPoints[i] = calloc(dims * sizeof(double));
     }
-
+    double* Y = calloc(points * sizeof(double));
 
     for(int i=0;i<points;i++){
+
+        for(int x=0;x<dims;x++){
+            dataPoints[i][x] = randomDouble(-100,100);
+            Y += dataPoints[i][x] * (trueWeights[x] );
+        }
+        Y += trueBias
 
     }
 
